@@ -19,6 +19,11 @@ struct AppetizerListView: View {
             .navigationTitle("🥗 Appetizers")
         }
         .onAppear() { viewModel.getAppetizers() }
+        .alert(item: $viewModel.alertItem) { alert in
+            Alert(title: alert.title,
+                  message: alert.message,
+                  dismissButton: alert.dismissButton)
+        }
     }
 }
 

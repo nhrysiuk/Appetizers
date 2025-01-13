@@ -18,8 +18,7 @@ final class NetworkManager {
     
     func getAppetizers() async throws -> [Appetizer] {
             guard let url = URL(string: appetizerURL) else {
-                print("Invalid URL")
-                return []
+                throw APIError.invalidURL
             }
             
             let (data, _) = try await URLSession.shared.data(from: url)
@@ -29,7 +28,7 @@ final class NetworkManager {
                 return try decoder.decode(AppetizerResponse.self, from: data).request
             } catch {
                 print(error)
-                return []
+                throw APIError.invalidData
             }
         
         }
