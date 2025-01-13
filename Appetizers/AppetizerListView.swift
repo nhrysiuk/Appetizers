@@ -12,17 +12,24 @@ struct AppetizerListView: View {
     @StateObject var viewModel = AppetizerListViewModel()
     
     var body: some View {
-        NavigationView {
-            List(viewModel.appetizers) { appetizer in
-                AppetizerView(appetizer: appetizer)
+        ZStack {
+            NavigationView {
+                List(viewModel.appetizers) { appetizer in
+                    AppetizerView(appetizer: appetizer)
+                }
+                .navigationTitle("🥗 Appetizers")
             }
-            .navigationTitle("🥗 Appetizers")
-        }
-        .onAppear() { viewModel.getAppetizers() }
-        .alert(item: $viewModel.alertItem) { alert in
-            Alert(title: alert.title,
-                  message: alert.message,
-                  dismissButton: alert.dismissButton)
+            .onAppear() { viewModel.getAppetizers() }
+            .alert(viewModel.alertItem?.title ?? "Error", isPresented: $viewModel.alertIsPresented) {
+                
+            } message: {
+                Text(viewModel.alertItem?.message ?? "")
+            }
+            
+            if viewModel.isLoading {
+                ProgressView()
+                    .tint(.brandPrimary)
+            }
         }
     }
 }

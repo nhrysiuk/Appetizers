@@ -13,16 +13,13 @@ struct AppetizerView: View {
     
     var body: some View {
         HStack {
-            Image("Pancakes")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 90, height: 90)
-                .clipShape(RoundedRectangle(cornerRadius: 8))
+            AppetizerImage(URLString: appetizer.imageURL)
             
             VStack(alignment: .leading) {
                 Text(appetizer.name)
                     .font(.title2)
                     .fontWeight(.medium)
+                
                 Text("$\(appetizer.price, specifier: "%.2f")")
                     .foregroundStyle(.secondary)
                     .fontWeight(.semibold)

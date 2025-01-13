@@ -17,19 +17,22 @@ final class NetworkManager {
     private init() {}
     
     func getAppetizers() async throws -> [Appetizer] {
-            guard let url = URL(string: appetizerURL) else {
-                throw APIError.invalidURL
-            }
-            
-            let (data, _) = try await URLSession.shared.data(from: url)
-            
-            do {
-                let decoder = JSONDecoder()
-                return try decoder.decode(AppetizerResponse.self, from: data).request
-            } catch {
-                print(error)
-                throw APIError.invalidData
-            }
-        
+        guard let url = URL(string: appetizerURL) else {
+            throw APIError.invalidURL
         }
+        
+        let (data, _) = try await URLSession.shared.data(from: url)
+        
+        do {
+            let decoder = JSONDecoder()
+            return try decoder.decode(AppetizerResponse.self, from: data).request
+        } catch {
+            print(error)
+            throw APIError.invalidData
+        }
+    }
+    
+    func downloadImage(fromURLString: String) {
+        
+    }
 }
