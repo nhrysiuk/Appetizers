@@ -17,6 +17,7 @@ struct AppetizerListView: View {
                 LazyVStack(alignment: .leading) {
                     ForEach(viewModel.appetizers) { appetizer in
                        AppetizerView(appetizer: appetizer)
+                            .frame(width: .infinity)
                             .onTapGesture {
                                 viewModel.chosenAppetizer = appetizer
                                 viewModel.isShowingDetail = true
@@ -38,7 +39,7 @@ struct AppetizerListView: View {
             }
             .blur(radius: viewModel.isShowingDetail ? 10 : 0)
             if viewModel.isShowingDetail {
-                AppetizerDetailView(appetizer: viewModel.chosenAppetizer!)
+                AppetizerDetailView(appetizer: viewModel.chosenAppetizer!, isShowingDetail: $viewModel.isShowingDetail)
                     .clipShape(RoundedRectangle(cornerRadius: 13))
                     .padding(.horizontal, 30)
                     .padding(.vertical, 100)

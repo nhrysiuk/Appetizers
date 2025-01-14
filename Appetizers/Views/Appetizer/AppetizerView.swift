@@ -28,6 +28,7 @@ struct AppetizerView: View {
                     .foregroundStyle(.secondary)
                     .fontWeight(.semibold)
             }
+            Spacer()
         }
     }
 }

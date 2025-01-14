@@ -10,6 +10,7 @@ import SwiftUI
 struct AppetizerDetailView: View {
     
     let appetizer: Appetizer
+    @Binding var isShowingDetail: Bool
     
     var body: some View {
         VStack {
@@ -18,7 +19,7 @@ struct AppetizerDetailView: View {
                 .clipped()
                 .overlay(alignment: .topTrailing) {
                     Button {
-                        
+                        isShowingDetail = false
                     } label: {
                         Text("X")
                             .foregroundStyle(.black)
@@ -75,5 +76,5 @@ struct NutrientView: View {
 }
 
 #Preview {
-    AppetizerDetailView(appetizer: MockData.appetizer)
+    AppetizerDetailView(appetizer: MockData.appetizer, isShowingDetail: Binding.constant(true))
 }
