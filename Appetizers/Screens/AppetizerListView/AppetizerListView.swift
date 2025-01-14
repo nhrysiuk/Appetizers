@@ -30,6 +30,10 @@ struct AppetizerListView: View {
             }
             .padding(.top, 0.2)
             .blur(radius: viewModel.isShowingDetail ? 3 : 0)
+            if viewModel.isLoading {
+                ProgressView()
+                    .tint(.brandPrimary)
+            }
             
             if viewModel.isShowingDetail {
                 AppetizerDetailView(appetizer: viewModel.chosenAppetizer!, isShowingDetail: $viewModel.isShowingDetail)
@@ -38,7 +42,7 @@ struct AppetizerListView: View {
                     .shadow(radius: 15)
             }
         }
-        .onAppear() { viewModel.getAppetizers() }
+        .onAppear { viewModel.getAppetizers() }
         .transition(.opacity)
         .animation(.easeInOut(duration: 0.25), value: viewModel.isShowingDetail)
         .alert(
@@ -47,11 +51,6 @@ struct AppetizerListView: View {
         ) {
         } message: {
             Text(viewModel.alertItem?.message ?? "")
-        }
-        
-        if viewModel.isLoading {
-            ProgressView()
-                .tint(.brandPrimary)
         }
     }
 }

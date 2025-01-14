@@ -7,7 +7,7 @@
 
 import Foundation
 
-@MainActor class AppetizerListViewModel: ObservableObject {
+class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
     @Published var isLoading = false
@@ -15,7 +15,7 @@ import Foundation
     @Published var isShowingDetail = false
     @Published var chosenAppetizer: Appetizer?
     
-    func getAppetizers() {
+    @MainActor func getAppetizers() {
         isLoading = true
         Task {
             do {
