@@ -13,7 +13,9 @@ struct AppetizerDetailView: View {
     
     var body: some View {
         VStack {
-            AppetizerImage(URLString: appetizer.imageURL)
+            AppetizerImage(URLString: "https://media.istockphoto.com/id/470751037/photo/straight-asphalt-road-leading-into-sunlight.jpg?s=612x612&w=0&k=20&c=jmxixH3uIH1cR8sqYuZJRcIHHLoIZDvQkJc_FdPIGR0=")
+                .frame(maxHeight: 300)
+                .clipped()
                 .overlay(alignment: .topTrailing) {
                     Button {
                         
@@ -26,14 +28,16 @@ struct AppetizerDetailView: View {
                             .padding(10)
                     }
                 }
+                
             
             Text(appetizer.name)
                 .font(.title)
                 .fontWeight(.medium)
-                .padding(.horizontal, 20)
+                .padding(.vertical, 10)
             Text(appetizer.description)
                 .font(.title3)
-                .padding(20)
+                .padding(.bottom, 20)
+                .padding(.horizontal, 20)
             
             HStack(spacing: 35) {
                     NutrientView(name: "Calories", quantity: String(appetizer.calories))
@@ -46,6 +50,7 @@ struct AppetizerDetailView: View {
                 .padding(.horizontal, 20)
                 .padding(.bottom, 40)
         }
+        .background(.white)
     }
 }
 

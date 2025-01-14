@@ -16,11 +16,11 @@ struct AppetizerImage: View {
             switch phase {
             case .empty:
                 ProgressView()
+
             case .success(let image):
                 image
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    //.clipShape(RoundedRectangle(cornerRadius: 8))
+                    .scaledToFill()
                 
             case .failure(_):
                 Image(systemName: "photo")
@@ -33,11 +33,10 @@ struct AppetizerImage: View {
                     .font(.system(size: 30))
             }
         }
-        .aspectRatio(contentMode: .fit)
-       // .clipShape(RoundedRectangle(cornerRadius: 8))
+        .scaledToFill()
     }
 }
 
 #Preview {
-    AppetizerImage(URLString: "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp")
+    AppetizerImage(URLString: "https://media.istockphoto.com/id/470751037/photo/straight-asphalt-road-leading-into-sunlight.jpg?s=612x612&w=0&k=20&c=jmxixH3uIH1cR8sqYuZJRcIHHLoIZDvQkJc_FdPIGR0=")
 }
