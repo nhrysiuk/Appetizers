@@ -14,7 +14,7 @@ struct AppetizerDetailView: View {
     
     var body: some View {
         VStack {
-            AppetizerImage(URLString: "https://media.istockphoto.com/id/470751037/photo/straight-asphalt-road-leading-into-sunlight.jpg?s=612x612&w=0&k=20&c=jmxixH3uIH1cR8sqYuZJRcIHHLoIZDvQkJc_FdPIGR0=")
+            AppetizerImage(URLString: appetizer.imageURL)
                 .frame(maxHeight: 300)
                 .clipped()
                 .overlay(alignment: .topTrailing) {
