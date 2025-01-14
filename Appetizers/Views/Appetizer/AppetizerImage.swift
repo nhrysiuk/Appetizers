@@ -16,30 +16,25 @@ struct AppetizerImage: View {
             switch phase {
             case .empty:
                 ProgressView()
-                    .frame(width: 90, height: 90)
             case .success(let image):
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 90, height: 90)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                    //.clipShape(RoundedRectangle(cornerRadius: 8))
                 
             case .failure(_):
                 Image(systemName: "photo")
                     .foregroundStyle(.secondary)
                     .font(.system(size: 30))
-                    .frame(width: 90, height: 90)
                 
             @unknown default:
                 Image(systemName: "photo")
                     .foregroundStyle(.secondary)
                     .font(.system(size: 30))
-                    .frame(width: 90, height: 90)
             }
         }
         .aspectRatio(contentMode: .fit)
-        .frame(width: 90, height: 90)
-        .clipShape(RoundedRectangle(cornerRadius: 8))
+       // .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }
 
