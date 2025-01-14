@@ -16,7 +16,8 @@ struct AppetizerImage: View {
             switch phase {
             case .empty:
                 ProgressView()
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .padding(.horizontal)
+                
                 
             case .success(let image):
                 image
@@ -34,7 +35,6 @@ struct AppetizerImage: View {
                     .font(.system(size: 30))
             }
         }
-        .scaledToFill()
     }
 }
 

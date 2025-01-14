@@ -15,8 +15,8 @@ struct AppetizerDetailView: View {
     var body: some View {
         VStack {
             AppetizerImage(URLString: appetizer.imageURL)
-                .frame(maxHeight: 300)
-                .clipped()
+                .frame(height: 250)
+                .frame(maxWidth: .infinity)
                 .overlay(alignment: .topTrailing) {
                     Button {
                         isShowingDetail = false
@@ -34,7 +34,7 @@ struct AppetizerDetailView: View {
             Text(appetizer.name)
                 .font(.title)
                 .fontWeight(.medium)
-                .padding(.vertical, 10)
+                .padding(.vertical, 20)
             Text(appetizer.description)
                 .font(.title3)
                 .padding(.bottom, 20)
