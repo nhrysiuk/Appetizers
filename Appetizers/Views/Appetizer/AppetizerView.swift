@@ -30,6 +30,7 @@ struct AppetizerView: View {
             }
             Spacer()
         }
+        .contentShape(Rectangle())
     }
 }
 
