@@ -12,46 +12,48 @@ struct AppetizerListView: View {
     @StateObject var viewModel = AppetizerListViewModel()
     
     var body: some View {
-        ZStack {
-            ScrollView {
-                LazyVStack(alignment: .leading) {
-                    ForEach(viewModel.appetizers) { appetizer in
-                       AppetizerView(appetizer: appetizer)
-                            .frame(width: .infinity)
-                            .onTapGesture {
-                                viewModel.chosenAppetizer = appetizer
-                                viewModel.isShowingDetail = true
-                            }
+        NavigationStack {
+            ZStack {
+                ScrollView {
+                    LazyVStack(alignment: .leading) {
+                        ForEach(viewModel.appetizers) { appetizer in
+                            AppetizerView(appetizer: appetizer)
+                                .frame(width: .infinity)
+                                .onTapGesture {
+                                    viewModel.chosenAppetizer = appetizer
+                                    viewModel.isShowingDetail = true
+                                }
+                        }
+                    }
+                    .padding()
+                    .onAppear() { viewModel.getAppetizers() }
+                    
+                    .alert(
+                        viewModel.alertItem?.title ?? "Error",
+                        isPresented: $viewModel.alertIsPresented
+                    ) {
+                    } message: {
+                        Text(
+                            viewModel.alertItem?.message ?? ""
+                        )
                     }
                 }
-                .padding()
-                .onAppear() { viewModel.getAppetizers() }
+                .blur(radius: viewModel.isShowingDetail ? 10 : 0)
+                if viewModel.isShowingDetail {
+                    AppetizerDetailView(appetizer: viewModel.chosenAppetizer!, isShowingDetail: $viewModel.isShowingDetail)
+                        .clipShape(RoundedRectangle(cornerRadius: 13))
+                        .padding(.horizontal, 30)
+                        .padding(.vertical, 100)
+                        .shadow(radius: 15)
+                }
                 
-                .alert(
-                    viewModel.alertItem?.title ?? "Error",
-                    isPresented: $viewModel.alertIsPresented
-                ) {
-                } message: {
-                    Text(
-                        viewModel.alertItem?.message ?? ""
-                    )
+                if viewModel.isLoading {
+                    ProgressView()
+                        .tint(.brandPrimary)
                 }
             }
-            .blur(radius: viewModel.isShowingDetail ? 10 : 0)
-            if viewModel.isShowingDetail {
-                AppetizerDetailView(appetizer: viewModel.chosenAppetizer!, isShowingDetail: $viewModel.isShowingDetail)
-                    .clipShape(RoundedRectangle(cornerRadius: 13))
-                    .padding(.horizontal, 30)
-                    .padding(.vertical, 100)
-                    .shadow(radius: 15)
-            }
-            
-            if viewModel.isLoading {
-                ProgressView()
-                    .tint(.brandPrimary)
-            }
+            .navigationTitle("🥗 Appetizers")
         }
-        
     }
 }
 #Preview {

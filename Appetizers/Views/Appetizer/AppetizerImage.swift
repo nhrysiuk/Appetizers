@@ -16,7 +16,8 @@ struct AppetizerImage: View {
             switch phase {
             case .empty:
                 ProgressView()
-
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
             case .success(let image):
                 image
                     .resizable()
