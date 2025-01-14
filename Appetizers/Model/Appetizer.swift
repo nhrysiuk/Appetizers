@@ -26,7 +26,7 @@ struct MockData {
     
     static let appetizer = Appetizer(id: 1,
                                      name: "Name",
-                                     description: "Description",
+                                     description: "deiuhsdeuyewgy yguygdeu eufye rfge fuyge fyuegr fuyer fyur fgr fyef eyg",
                                      price: 100,
                                      imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg",
                                      protein: 10,

@@ -36,9 +36,9 @@ struct AppetizerDetailView: View {
                 .padding(20)
             
             HStack(spacing: 35) {
-                    NutrionView(name: "Calories", quantity: String(appetizer.calories))
-                    NutrionView(name: "Carbs", quantity: "\(appetizer.carbs) g")
-                    NutrionView(name: "Protein", quantity: "\(appetizer.protein) g")
+                    NutrientView(name: "Calories", quantity: String(appetizer.calories))
+                    NutrientView(name: "Carbs", quantity: "\(appetizer.carbs) g")
+                    NutrientView(name: "Protein", quantity: "\(appetizer.protein) g")
             }
             .padding(.bottom, 40)
             
@@ -49,7 +49,7 @@ struct AppetizerDetailView: View {
     }
 }
 
-struct NutrionView: View {
+struct NutrientView: View {
     
     var name: String
     var quantity: String
