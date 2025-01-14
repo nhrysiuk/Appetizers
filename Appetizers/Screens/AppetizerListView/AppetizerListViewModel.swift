@@ -12,6 +12,8 @@ import Foundation
     @Published var alertItem: AlertItem?
     @Published var isLoading = false
     @Published var alertIsPresented = false
+    @Published var isShowingDetail = false
+    @Published var chosenAppetizer: Appetizer?
     
     func getAppetizers() {
         isLoading = true
