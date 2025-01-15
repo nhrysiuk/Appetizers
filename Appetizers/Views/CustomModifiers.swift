@@ -1,18 +1,16 @@
 //
-//  OrderButton.swift
+//  Custom.swift
 //  Appetizers
 //
-//  Created by Анастасія Грисюк on 14.01.2025.
+//  Created by Анастасія Грисюк on 15.01.2025.
 //
 
 import SwiftUI
 
-struct OrderButton: View {
+struct StandardButtonStyle: ViewModifier {
     
-    let text: String
-    
-    var body: some View {
-        Text(text)
+    func body(content: Content) -> some View {
+        content
             .font(.title2)
             .fontWeight(.semibold)
             .multilineTextAlignment(.center)
@@ -20,11 +18,11 @@ struct OrderButton: View {
             .padding(.vertical)
             .frame(maxWidth: .infinity)
             .background(.accent)
-            
-            .cornerRadius(10)
     }
 }
 
-#Preview {
-    OrderButton(text: "$10.00 - Add To Order")
+extension View {
+    func standardButtonStyle() -> some View {
+        self.modifier(StandardButtonStyle())
+    }
 }

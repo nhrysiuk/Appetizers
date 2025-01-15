@@ -26,7 +26,8 @@ struct OrderView: View {
                     Button {
                         
                     } label: {
-                        OrderButton(text: "$\(order.totalPrice) – Place Order")
+                        Text("$\(order.totalPrice) – Place Order")
+                            .modifier(StandardButtonStyle())
                     }
                     .padding()
                 }

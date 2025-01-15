@@ -46,7 +46,8 @@ struct AppetizerDetailView: View {
                 order.add(appetizer)
                 isShowingDetail = false
             } label: {
-                OrderButton(text: "$\(appetizer.price) - Add To Order")
+                Text("$\(appetizer.price) - Add To Order")
+                    .modifier(StandardButtonStyle())
                     .padding(.horizontal, 20)
                     .padding(.bottom, 40)
             }
