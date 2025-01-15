@@ -39,6 +39,10 @@ struct AccountView: View {
             }
             .navigationTitle("👤 Account")
         }
+        .onAppear {
+            viewModel.retrieveUser()
+        }
+        
         .alert(
             viewModel.alertItem?.title ?? "аа",
             isPresented: $viewModel.alertIsPresented

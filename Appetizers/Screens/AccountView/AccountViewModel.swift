@@ -17,7 +17,12 @@ class AccountViewModel: ObservableObject {
     @Published var alertItem: AlertItem?
     
     func retrieveUser() {
-        
+        guard let data = userData else { return }
+        do {
+            user = try JSONDecoder().decode(User.self, from: data)
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
     }
     
     func saveChanges() {
