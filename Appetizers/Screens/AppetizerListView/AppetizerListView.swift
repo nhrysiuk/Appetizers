@@ -46,7 +46,7 @@ struct AppetizerListView: View {
         .transition(.opacity)
         .animation(.easeInOut(duration: 0.25), value: viewModel.isShowingDetail)
         .alert(
-            viewModel.alertItem?.title ?? "Error",
+            viewModel.alertItem?.title ?? "",
             isPresented: $viewModel.alertIsPresented
         ) {
         } message: {
