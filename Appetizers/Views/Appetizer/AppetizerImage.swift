@@ -18,7 +18,6 @@ struct AppetizerImage: View {
                 ProgressView()
                     .padding(.horizontal)
                 
-                
             case .success(let image):
                 image
                     .resizable()

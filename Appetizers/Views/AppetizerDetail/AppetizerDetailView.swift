@@ -21,15 +21,9 @@ struct AppetizerDetailView: View {
                     Button {
                         isShowingDetail = false
                     } label: {
-                        Text("X")
-                            .foregroundStyle(.black)
-                            .frame(width: 30, height: 30)
-                            .background(.white)
-                            .clipShape(Circle())
-                            .padding(10)
+                        XDismissButton()
                     }
                 }
-                
             
             Text(appetizer.name)
                 .font(.title)
@@ -41,9 +35,9 @@ struct AppetizerDetailView: View {
                 .padding(.horizontal, 20)
             
             HStack(spacing: 35) {
-                    NutrientView(name: "Calories", quantity: String(appetizer.calories))
-                    NutrientView(name: "Carbs", quantity: "\(appetizer.carbs) g")
-                    NutrientView(name: "Protein", quantity: "\(appetizer.protein) g")
+                NutrientView(name: "Calories", quantity: String(appetizer.calories))
+                NutrientView(name: "Carbs", quantity: "\(appetizer.carbs) g")
+                NutrientView(name: "Protein", quantity: "\(appetizer.protein) g")
             }
             .padding(.bottom, 40)
             
@@ -70,7 +64,7 @@ struct NutrientView: View {
                 .fontWeight(.bold)
                 .foregroundStyle(.secondary)
                 .italic()
-        
+            
         }
     }
 }
