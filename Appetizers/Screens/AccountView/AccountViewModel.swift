@@ -9,25 +9,39 @@ import SwiftUI
 
 class AccountViewModel: ObservableObject {
     
-    @Published var firstName = String()
-    @Published var lastName = String()
-    @Published var emailString = String()
-    @Published var birthDate = Date()
-    @Published var needsExtraNapkins = Bool()
-    @Published var needsFrequentRefills = Bool()
+    @AppStorage("user") private var userData: Data?
+    
+    @Published var user = User()
     
     @Published var alertIsPresented = Bool()
     @Published var alertItem: AlertItem?
     
+    func retrieveUser() {
+        
+    }
+    
+    func saveChanges() {
+        guard isValidForm else { return }
+        
+        do {
+            let data = try JSONEncoder().encode(user)
+            userData = data
+            alertItem = AlertContext.userSaveSuccess
+            alertIsPresented = true
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
+    }
+    
     var isValidForm: Bool {
-        guard !firstName.isEmpty && !lastName.isEmpty && !emailString.isEmpty else {
+        guard !user.firstName.isEmpty && !user.lastName.isEmpty && !user.email.isEmpty else {
             alertItem = AlertContext.invalidForm
             alertIsPresented = true
             
             return false
         }
 
-        guard emailString.isValidEmail else {
+        guard user.email.isValidEmail else {
             alertItem = AlertContext.invalidEmail
             alertIsPresented = true
 
@@ -35,13 +49,5 @@ class AccountViewModel: ObservableObject {
         }
         
         return true
-    }
-    
-    func saveChanges() {
-        guard isValidForm else {
-            return
-        }
-        
-        
     }
 }
