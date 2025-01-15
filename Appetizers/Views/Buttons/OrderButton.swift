@@ -19,7 +19,7 @@ struct OrderButton: View {
             .foregroundStyle(.white)
             .padding(.vertical)
             .frame(maxWidth: .infinity)
-            .background(.brandPrimary)
+            .background(.accent)
             
             .cornerRadius(10)
     }

@@ -17,6 +17,7 @@ struct AppetizerImage: View {
             case .empty:
                 ProgressView()
                     .padding(.horizontal)
+                    .tint(.accent)
                 
             case .success(let image):
                 image

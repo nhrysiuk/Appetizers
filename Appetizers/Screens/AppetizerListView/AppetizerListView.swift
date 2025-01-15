@@ -32,7 +32,7 @@ struct AppetizerListView: View {
             .blur(radius: viewModel.isShowingDetail ? 3 : 0)
             if viewModel.isLoading {
                 ProgressView()
-                    .tint(.brandPrimary)
+                    .tint(.accent)
             }
             
             if viewModel.isShowingDetail {
