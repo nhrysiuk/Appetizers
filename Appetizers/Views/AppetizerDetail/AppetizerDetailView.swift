@@ -40,10 +40,13 @@ struct AppetizerDetailView: View {
                 NutrientView(name: "Protein", quantity: "\(appetizer.protein) g")
             }
             .padding(.bottom, 40)
-            
-            OrderButton(text: "$\(appetizer.price) - Add To Order")
-                .padding(.horizontal, 20)
-                .padding(.bottom, 40)
+            Button {
+                
+            } label: {
+                OrderButton(text: "$\(appetizer.price) - Add To Order")
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 40)
+            }
         }
         .background(.white)
     }
