@@ -18,7 +18,7 @@ struct AppetizerView: View {
                 .clipped()
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .padding(.trailing, 5)
-
+            
             VStack(alignment: .leading) {
                 Text(appetizer.name)
                     .font(.title2)

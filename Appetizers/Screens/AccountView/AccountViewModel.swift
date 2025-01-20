@@ -45,11 +45,11 @@ class AccountViewModel: ObservableObject {
             
             return false
         }
-
+        
         guard user.email.isValidEmail else {
             alertItem = AlertContext.invalidEmail
             alertIsPresented = true
-
+            
             return false
         }
         

@@ -26,20 +26,20 @@ struct MockData {
     
     static let appetizer = Appetizer(id: 1,
                                      name: "Name",
-                                     description: "deiuhsdeuyewgy yguygdeu eufye rfge fuyge fyuegr fuyer fyur fgr fyef eyg",
+                                     description: "Description",
                                      price: 100,
                                      imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg",
                                      protein: 10,
                                      calories: 100,
                                      carbs: 100)
     static let appetizer2 = Appetizer(id: 2,
-                                     name: "Name",
-                                     description: "deiuhsdeuyewgy yguygdeu eufye rfge fuyge fyuegr fuyer fyur fgr fyef eyg",
-                                     price: 100,
-                                     imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg",
-                                     protein: 10,
-                                     calories: 100,
-                                     carbs: 100)
+                                      name: "Name",
+                                      description: "Really long description here just to be sure everything is alright",
+                                      price: 100,
+                                      imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg",
+                                      protein: 10,
+                                      calories: 100,
+                                      carbs: 100)
     
     static let appetizers = [appetizer, appetizer2]
 }

@@ -39,8 +39,13 @@ struct AccountView: View {
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
                     
-                    DatePicker("Birthday", selection: $viewModel.user.birthdate,
-                               displayedComponents: .date)
+                    DatePicker(
+                        "Birthday",
+                        selection: $viewModel.user.birthdate,
+                        in: Calendar.current.date(byAdding: .year, value: -120, to: Date())!...Date(),
+                        displayedComponents: .date
+                    )
+                    
                     Button {
                         viewModel.saveChanges()
                     } label: {
@@ -71,7 +76,7 @@ struct AccountView: View {
         }
         
         .alert(
-            viewModel.alertItem?.title ?? "аа",
+            viewModel.alertItem?.title ?? "Error",
             isPresented: $viewModel.alertIsPresented
         ) {
         } message: {
