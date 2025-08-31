@@ -1,0 +1,1002 @@
+[
+    {
+        "id": 1,
+        "name": "Burrito",
+        "description": "Flour tortilla stuffed with rice, beans, and meat.",
+        "price": 24.89,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 39,
+        "calories": 452,
+        "carbs": 88
+    },
+    {
+        "id": 2,
+        "name": "Pancakes",
+        "description": "Fluffy pancakes served with maple syrup.",
+        "price": 20.53,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 5,
+        "calories": 433,
+        "carbs": 10
+    },
+    {
+        "id": 3,
+        "name": "Burrito",
+        "description": "Flour tortilla stuffed with rice, beans, and meat.",
+        "price": 24.95,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 24,
+        "calories": 412,
+        "carbs": 18
+    },
+    {
+        "id": 4,
+        "name": "Pho",
+        "description": "Vietnamese noodle soup with beef and herbs.",
+        "price": 24.73,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 29,
+        "calories": 197,
+        "carbs": 33
+    },
+    {
+        "id": 5,
+        "name": "Lasagna",
+        "description": "Baked pasta layered with meat, tomato sauce, and cheese.",
+        "price": 8.25,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 38,
+        "calories": 368,
+        "carbs": 67
+    },
+    {
+        "id": 6,
+        "name": "Poke Bowl",
+        "description": "Hawaiian bowl with raw fish, rice, and veggies.",
+        "price": 21.26,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 7,
+        "calories": 798,
+        "carbs": 43
+    },
+    {
+        "id": 7,
+        "name": "Chicken Tikka Masala",
+        "description": "Grilled chicken in spiced tomato-cream sauce.",
+        "price": 21.12,
+        "imageURL": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "protein": 18,
+        "calories": 655,
+        "carbs": 67
+    },
+    {
+        "id": 8,
+        "name": "Gnocchi",
+        "description": "Italian potato dumplings with sauce.",
+        "price": 6.9,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 9,
+        "calories": 254,
+        "carbs": 49
+    },
+    {
+        "id": 9,
+        "name": "Poke Bowl",
+        "description": "Hawaiian bowl with raw fish, rice, and veggies.",
+        "price": 5.58,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 18,
+        "calories": 290,
+        "carbs": 92
+    },
+    {
+        "id": 10,
+        "name": "Gnocchi",
+        "description": "Italian potato dumplings with sauce.",
+        "price": 10.29,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 16,
+        "calories": 611,
+        "carbs": 27
+    },
+    {
+        "id": 11,
+        "name": "Ceviche",
+        "description": "Raw fish cured in citrus juice with onions and chili.",
+        "price": 8.59,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 34,
+        "calories": 769,
+        "carbs": 31
+    },
+    {
+        "id": 12,
+        "name": "Shakshuka",
+        "description": "Eggs poached in tomato sauce with peppers and spices.",
+        "price": 24.71,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 39,
+        "calories": 168,
+        "carbs": 80
+    },
+    {
+        "id": 13,
+        "name": "Poke Bowl",
+        "description": "Hawaiian bowl with raw fish, rice, and veggies.",
+        "price": 6.68,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 8,
+        "calories": 209,
+        "carbs": 65
+    },
+    {
+        "id": 14,
+        "name": "Cheeseburger",
+        "description": "Juicy grilled beef patty with cheese and fresh veggies.",
+        "price": 24.4,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 16,
+        "calories": 707,
+        "carbs": 58
+    },
+    {
+        "id": 15,
+        "name": "Curry Laksa",
+        "description": "Spicy Malaysian noodle soup with coconut milk.",
+        "price": 24.71,
+        "imageURL": "https://images.unsplash.com/photo-1617196037302-5cf8c5fbcaa6",
+        "protein": 10,
+        "calories": 666,
+        "carbs": 72
+    },
+    {
+        "id": 16,
+        "name": "Shawarma",
+        "description": "Middle Eastern wrap with spiced meat and tahini.",
+        "price": 7.69,
+        "imageURL": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "protein": 25,
+        "calories": 491,
+        "carbs": 16
+    },
+    {
+        "id": 17,
+        "name": "Burrito",
+        "description": "Flour tortilla stuffed with rice, beans, and meat.",
+        "price": 11.65,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 18,
+        "calories": 526,
+        "carbs": 58
+    },
+    {
+        "id": 18,
+        "name": "Croissant",
+        "description": "Buttery French pastry, flaky and golden.",
+        "price": 23.76,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 10,
+        "calories": 294,
+        "carbs": 76
+    },
+    {
+        "id": 19,
+        "name": "Tacos al Pastor",
+        "description": "Mexican tacos with marinated pork and pineapple.",
+        "price": 8.35,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 22,
+        "calories": 669,
+        "carbs": 77
+    },
+    {
+        "id": 20,
+        "name": "Cheeseburger",
+        "description": "Juicy grilled beef patty with cheese and fresh veggies.",
+        "price": 17.68,
+        "imageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "protein": 12,
+        "calories": 751,
+        "carbs": 80
+    },
+    {
+        "id": 21,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked pork ribs with barbecue sauce.",
+        "price": 13.48,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 6,
+        "calories": 715,
+        "carbs": 60
+    },
+    {
+        "id": 22,
+        "name": "Gnocchi",
+        "description": "Italian potato dumplings with sauce.",
+        "price": 16.29,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 40,
+        "calories": 267,
+        "carbs": 92
+    },
+    {
+        "id": 23,
+        "name": "Fish and Chips",
+        "description": "Battered fish fillet with fries and tartar sauce.",
+        "price": 24.79,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 32,
+        "calories": 255,
+        "carbs": 41
+    },
+    {
+        "id": 24,
+        "name": "Spring Rolls",
+        "description": "Crispy rolls filled with vegetables and pork.",
+        "price": 22.39,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 18,
+        "calories": 776,
+        "carbs": 44
+    },
+    {
+        "id": 25,
+        "name": "Dim Sum",
+        "description": "Chinese steamed dumplings and small plates.",
+        "price": 20.81,
+        "imageURL": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "protein": 23,
+        "calories": 258,
+        "carbs": 75
+    },
+    {
+        "id": 26,
+        "name": "Fish and Chips",
+        "description": "Battered fish fillet with fries and tartar sauce.",
+        "price": 22.51,
+        "imageURL": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "protein": 24,
+        "calories": 349,
+        "carbs": 35
+    },
+    {
+        "id": 27,
+        "name": "Pad Thai",
+        "description": "Stir-fried rice noodles with shrimp, peanuts, and lime.",
+        "price": 12.63,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 13,
+        "calories": 293,
+        "carbs": 70
+    },
+    {
+        "id": 28,
+        "name": "Dim Sum",
+        "description": "Chinese steamed dumplings and small plates.",
+        "price": 24.99,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 32,
+        "calories": 492,
+        "carbs": 30
+    },
+    {
+        "id": 29,
+        "name": "Pancakes",
+        "description": "Fluffy pancakes served with maple syrup.",
+        "price": 19.04,
+        "imageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "protein": 18,
+        "calories": 454,
+        "carbs": 22
+    },
+    {
+        "id": 30,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked pork ribs with barbecue sauce.",
+        "price": 11.02,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 38,
+        "calories": 797,
+        "carbs": 67
+    },
+    {
+        "id": 31,
+        "name": "Falafel Wrap",
+        "description": "Chickpea falafels wrapped with hummus and veggies.",
+        "price": 11.91,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 28,
+        "calories": 433,
+        "carbs": 63
+    },
+    {
+        "id": 32,
+        "name": "Ceviche",
+        "description": "Raw fish cured in citrus juice with onions and chili.",
+        "price": 20.76,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 25,
+        "calories": 335,
+        "carbs": 16
+    },
+    {
+        "id": 33,
+        "name": "Spring Rolls",
+        "description": "Crispy rolls filled with vegetables and pork.",
+        "price": 18.57,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 13,
+        "calories": 701,
+        "carbs": 49
+    },
+    {
+        "id": 34,
+        "name": "Ramen",
+        "description": "Japanese noodle soup with broth, pork, and egg.",
+        "price": 14.55,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 23,
+        "calories": 462,
+        "carbs": 72
+    },
+    {
+        "id": 35,
+        "name": "Clam Chowder",
+        "description": "Creamy soup with clams, potatoes, and onions.",
+        "price": 6.4,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 39,
+        "calories": 739,
+        "carbs": 61
+    },
+    {
+        "id": 36,
+        "name": "Steak Frites",
+        "description": "Grilled steak served with crispy fries.",
+        "price": 9.81,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 34,
+        "calories": 220,
+        "carbs": 56
+    },
+    {
+        "id": 37,
+        "name": "Dim Sum",
+        "description": "Chinese steamed dumplings and small plates.",
+        "price": 10.35,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 9,
+        "calories": 380,
+        "carbs": 34
+    },
+    {
+        "id": 38,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked pork ribs with barbecue sauce.",
+        "price": 13.49,
+        "imageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "protein": 36,
+        "calories": 532,
+        "carbs": 37
+    },
+    {
+        "id": 39,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked pork ribs with barbecue sauce.",
+        "price": 23.28,
+        "imageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "protein": 17,
+        "calories": 678,
+        "carbs": 32
+    },
+    {
+        "id": 40,
+        "name": "Fried Chicken",
+        "description": "Crispy chicken pieces with seasoning.",
+        "price": 6.07,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 32,
+        "calories": 509,
+        "carbs": 31
+    },
+    {
+        "id": 41,
+        "name": "Curry Laksa",
+        "description": "Spicy Malaysian noodle soup with coconut milk.",
+        "price": 14.85,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 36,
+        "calories": 362,
+        "carbs": 12
+    },
+    {
+        "id": 42,
+        "name": "Cheeseburger",
+        "description": "Juicy grilled beef patty with cheese and fresh veggies.",
+        "price": 7.51,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 17,
+        "calories": 191,
+        "carbs": 21
+    },
+    {
+        "id": 43,
+        "name": "Clam Chowder",
+        "description": "Creamy soup with clams, potatoes, and onions.",
+        "price": 14.82,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 5,
+        "calories": 198,
+        "carbs": 21
+    },
+    {
+        "id": 44,
+        "name": "Dim Sum",
+        "description": "Chinese steamed dumplings and small plates.",
+        "price": 21.26,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 5,
+        "calories": 742,
+        "carbs": 75
+    },
+    {
+        "id": 45,
+        "name": "Shawarma",
+        "description": "Middle Eastern wrap with spiced meat and tahini.",
+        "price": 7.47,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 7,
+        "calories": 623,
+        "carbs": 46
+    },
+    {
+        "id": 46,
+        "name": "Shawarma",
+        "description": "Middle Eastern wrap with spiced meat and tahini.",
+        "price": 6.08,
+        "imageURL": "https://images.unsplash.com/photo-1617196037302-5cf8c5fbcaa6",
+        "protein": 30,
+        "calories": 178,
+        "carbs": 60
+    },
+    {
+        "id": 47,
+        "name": "Bruschetta",
+        "description": "Grilled bread with tomatoes, garlic, and olive oil.",
+        "price": 18.52,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 32,
+        "calories": 610,
+        "carbs": 46
+    },
+    {
+        "id": 48,
+        "name": "Lasagna",
+        "description": "Baked pasta layered with meat, tomato sauce, and cheese.",
+        "price": 14.54,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 18,
+        "calories": 644,
+        "carbs": 43
+    },
+    {
+        "id": 49,
+        "name": "Pho",
+        "description": "Vietnamese noodle soup with beef and herbs.",
+        "price": 5.77,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 21,
+        "calories": 569,
+        "carbs": 66
+    },
+    {
+        "id": 50,
+        "name": "Falafel Wrap",
+        "description": "Chickpea falafels wrapped with hummus and veggies.",
+        "price": 22.23,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 23,
+        "calories": 699,
+        "carbs": 84
+    },
+    {
+        "id": 51,
+        "name": "Dim Sum",
+        "description": "Chinese steamed dumplings and small plates.",
+        "price": 7.23,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 31,
+        "calories": 672,
+        "carbs": 83
+    },
+    {
+        "id": 52,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked pork ribs with barbecue sauce.",
+        "price": 8.29,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 36,
+        "calories": 592,
+        "carbs": 83
+    },
+    {
+        "id": 53,
+        "name": "Poke Bowl",
+        "description": "Hawaiian bowl with raw fish, rice, and veggies.",
+        "price": 14.69,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 12,
+        "calories": 768,
+        "carbs": 96
+    },
+    {
+        "id": 54,
+        "name": "Greek Salad",
+        "description": "Tomatoes, cucumbers, olives, feta cheese, and olive oil.",
+        "price": 20.71,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 19,
+        "calories": 643,
+        "carbs": 15
+    },
+    {
+        "id": 55,
+        "name": "Cheeseburger",
+        "description": "Juicy grilled beef patty with cheese and fresh veggies.",
+        "price": 7.58,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 40,
+        "calories": 243,
+        "carbs": 16
+    },
+    {
+        "id": 56,
+        "name": "Chicken Tikka Masala",
+        "description": "Grilled chicken in spiced tomato-cream sauce.",
+        "price": 24.48,
+        "imageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "protein": 33,
+        "calories": 343,
+        "carbs": 13
+    },
+    {
+        "id": 57,
+        "name": "Curry Laksa",
+        "description": "Spicy Malaysian noodle soup with coconut milk.",
+        "price": 23.39,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 36,
+        "calories": 434,
+        "carbs": 39
+    },
+    {
+        "id": 58,
+        "name": "Lasagna",
+        "description": "Baked pasta layered with meat, tomato sauce, and cheese.",
+        "price": 22.72,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 13,
+        "calories": 281,
+        "carbs": 83
+    },
+    {
+        "id": 59,
+        "name": "Tacos al Pastor",
+        "description": "Mexican tacos with marinated pork and pineapple.",
+        "price": 17.37,
+        "imageURL": "https://images.unsplash.com/photo-1617196037302-5cf8c5fbcaa6",
+        "protein": 20,
+        "calories": 627,
+        "carbs": 61
+    },
+    {
+        "id": 60,
+        "name": "Greek Salad",
+        "description": "Tomatoes, cucumbers, olives, feta cheese, and olive oil.",
+        "price": 24.52,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 33,
+        "calories": 330,
+        "carbs": 99
+    },
+    {
+        "id": 61,
+        "name": "Shawarma",
+        "description": "Middle Eastern wrap with spiced meat and tahini.",
+        "price": 17.66,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 31,
+        "calories": 342,
+        "carbs": 29
+    },
+    {
+        "id": 62,
+        "name": "Poke Bowl",
+        "description": "Hawaiian bowl with raw fish, rice, and veggies.",
+        "price": 18.16,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 33,
+        "calories": 632,
+        "carbs": 65
+    },
+    {
+        "id": 63,
+        "name": "Pad Thai",
+        "description": "Stir-fried rice noodles with shrimp, peanuts, and lime.",
+        "price": 12.31,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 39,
+        "calories": 592,
+        "carbs": 86
+    },
+    {
+        "id": 64,
+        "name": "Pad Thai",
+        "description": "Stir-fried rice noodles with shrimp, peanuts, and lime.",
+        "price": 12.23,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 17,
+        "calories": 486,
+        "carbs": 13
+    },
+    {
+        "id": 65,
+        "name": "Margherita Pizza",
+        "description": "Classic pizza with tomato, mozzarella, and basil.",
+        "price": 11.29,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 15,
+        "calories": 352,
+        "carbs": 10
+    },
+    {
+        "id": 66,
+        "name": "Gnocchi",
+        "description": "Italian potato dumplings with sauce.",
+        "price": 19.07,
+        "imageURL": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "protein": 37,
+        "calories": 204,
+        "carbs": 90
+    },
+    {
+        "id": 67,
+        "name": "Pancakes",
+        "description": "Fluffy pancakes served with maple syrup.",
+        "price": 6.13,
+        "imageURL": "https://images.unsplash.com/photo-1617196037302-5cf8c5fbcaa6",
+        "protein": 39,
+        "calories": 459,
+        "carbs": 68
+    },
+    {
+        "id": 68,
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 8.84,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 22,
+        "calories": 517,
+        "carbs": 29
+    },
+    {
+        "id": 69,
+        "name": "Steak Frites",
+        "description": "Grilled steak served with crispy fries.",
+        "price": 10.54,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 19,
+        "calories": 785,
+        "carbs": 100
+    },
+    {
+        "id": 70,
+        "name": "Fish and Chips",
+        "description": "Battered fish fillet with fries and tartar sauce.",
+        "price": 19.49,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 34,
+        "calories": 776,
+        "carbs": 12
+    },
+    {
+        "id": 71,
+        "name": "Fish and Chips",
+        "description": "Battered fish fillet with fries and tartar sauce.",
+        "price": 24.89,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 10,
+        "calories": 392,
+        "carbs": 65
+    },
+    {
+        "id": 72,
+        "name": "Bruschetta",
+        "description": "Grilled bread with tomatoes, garlic, and olive oil.",
+        "price": 23.73,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 19,
+        "calories": 574,
+        "carbs": 54
+    },
+    {
+        "id": 73,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked pork ribs with barbecue sauce.",
+        "price": 19.08,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 9,
+        "calories": 706,
+        "carbs": 66
+    },
+    {
+        "id": 74,
+        "name": "Greek Salad",
+        "description": "Tomatoes, cucumbers, olives, feta cheese, and olive oil.",
+        "price": 13.85,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 25,
+        "calories": 577,
+        "carbs": 59
+    },
+    {
+        "id": 75,
+        "name": "Burrito",
+        "description": "Flour tortilla stuffed with rice, beans, and meat.",
+        "price": 7.82,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 28,
+        "calories": 707,
+        "carbs": 83
+    },
+    {
+        "id": 76,
+        "name": "Falafel Wrap",
+        "description": "Chickpea falafels wrapped with hummus and veggies.",
+        "price": 17.61,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 6,
+        "calories": 404,
+        "carbs": 44
+    },
+    {
+        "id": 77,
+        "name": "Spring Rolls",
+        "description": "Crispy rolls filled with vegetables and pork.",
+        "price": 7.45,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 32,
+        "calories": 663,
+        "carbs": 76
+    },
+    {
+        "id": 78,
+        "name": "Chicken Tikka Masala",
+        "description": "Grilled chicken in spiced tomato-cream sauce.",
+        "price": 14.47,
+        "imageURL": "https://images.unsplash.com/photo-1605478031426-27d49c4df9f4",
+        "protein": 27,
+        "calories": 559,
+        "carbs": 76
+    },
+    {
+        "id": 79,
+        "name": "Clam Chowder",
+        "description": "Creamy soup with clams, potatoes, and onions.",
+        "price": 22.67,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 38,
+        "calories": 399,
+        "carbs": 67
+    },
+    {
+        "id": 80,
+        "name": "Burrito",
+        "description": "Flour tortilla stuffed with rice, beans, and meat.",
+        "price": 5.61,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 23,
+        "calories": 319,
+        "carbs": 47
+    },
+    {
+        "id": 81,
+        "name": "Pancakes",
+        "description": "Fluffy pancakes served with maple syrup.",
+        "price": 19.55,
+        "imageURL": "https://images.unsplash.com/photo-1617196037302-5cf8c5fbcaa6",
+        "protein": 20,
+        "calories": 466,
+        "carbs": 12
+    },
+    {
+        "id": 82,
+        "name": "Shawarma",
+        "description": "Middle Eastern wrap with spiced meat and tahini.",
+        "price": 23.34,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 40,
+        "calories": 573,
+        "carbs": 83
+    },
+    {
+        "id": 83,
+        "name": "Bruschetta",
+        "description": "Grilled bread with tomatoes, garlic, and olive oil.",
+        "price": 20.55,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 40,
+        "calories": 414,
+        "carbs": 44
+    },
+    {
+        "id": 84,
+        "name": "Croissant",
+        "description": "Buttery French pastry, flaky and golden.",
+        "price": 6.12,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 33,
+        "calories": 273,
+        "carbs": 23
+    },
+    {
+        "id": 85,
+        "name": "Pancakes",
+        "description": "Fluffy pancakes served with maple syrup.",
+        "price": 12.02,
+        "imageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "protein": 36,
+        "calories": 605,
+        "carbs": 68
+    },
+    {
+        "id": 86,
+        "name": "Greek Salad",
+        "description": "Tomatoes, cucumbers, olives, feta cheese, and olive oil.",
+        "price": 13.3,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 21,
+        "calories": 552,
+        "carbs": 49
+    },
+    {
+        "id": 87,
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 11.65,
+        "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "protein": 16,
+        "calories": 416,
+        "carbs": 30
+    },
+    {
+        "id": 88,
+        "name": "Clam Chowder",
+        "description": "Creamy soup with clams, potatoes, and onions.",
+        "price": 16.5,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 5,
+        "calories": 752,
+        "carbs": 71
+    },
+    {
+        "id": 89,
+        "name": "Pho",
+        "description": "Vietnamese noodle soup with beef and herbs.",
+        "price": 9.18,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 16,
+        "calories": 381,
+        "carbs": 43
+    },
+    {
+        "id": 90,
+        "name": "Poke Bowl",
+        "description": "Hawaiian bowl with raw fish, rice, and veggies.",
+        "price": 13.81,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 36,
+        "calories": 177,
+        "carbs": 24
+    },
+    {
+        "id": 91,
+        "name": "Poke Bowl",
+        "description": "Hawaiian bowl with raw fish, rice, and veggies.",
+        "price": 8.22,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 26,
+        "calories": 256,
+        "carbs": 87
+    },
+    {
+        "id": 92,
+        "name": "Croissant",
+        "description": "Buttery French pastry, flaky and golden.",
+        "price": 10.94,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 11,
+        "calories": 594,
+        "carbs": 43
+    },
+    {
+        "id": 93,
+        "name": "Pasta Carbonara",
+        "description": "Italian pasta with pancetta, egg, and parmesan.",
+        "price": 23.3,
+        "imageURL": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "protein": 9,
+        "calories": 360,
+        "carbs": 98
+    },
+    {
+        "id": 94,
+        "name": "Margherita Pizza",
+        "description": "Classic pizza with tomato, mozzarella, and basil.",
+        "price": 18.12,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 39,
+        "calories": 653,
+        "carbs": 63
+    },
+    {
+        "id": 95,
+        "name": "Pancakes",
+        "description": "Fluffy pancakes served with maple syrup.",
+        "price": 15.1,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 19,
+        "calories": 208,
+        "carbs": 13
+    },
+    {
+        "id": 96,
+        "name": "Falafel Wrap",
+        "description": "Chickpea falafels wrapped with hummus and veggies.",
+        "price": 20.37,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 11,
+        "calories": 311,
+        "carbs": 94
+    },
+    {
+        "id": 97,
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked pork ribs with barbecue sauce.",
+        "price": 17.93,
+        "imageURL": "https://images.unsplash.com/photo-1617196037302-5cf8c5fbcaa6",
+        "protein": 20,
+        "calories": 647,
+        "carbs": 60
+    },
+    {
+        "id": 98,
+        "name": "Shawarma",
+        "description": "Middle Eastern wrap with spiced meat and tahini.",
+        "price": 15.15,
+        "imageURL": "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+        "protein": 16,
+        "calories": 337,
+        "carbs": 50
+    },
+    {
+        "id": 99,
+        "name": "Tacos al Pastor",
+        "description": "Mexican tacos with marinated pork and pineapple.",
+        "price": 23.8,
+        "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "protein": 10,
+        "calories": 510,
+        "carbs": 48
+    },
+    {
+        "id": 100,
+        "name": "Pad Thai",
+        "description": "Stir-fried rice noodles with shrimp, peanuts, and lime.",
+        "price": 14.19,
+        "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "protein": 34,
+        "calories": 522,
+        "carbs": 52
+    }
+]
